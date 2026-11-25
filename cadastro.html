@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - E-Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📖 E-Livros</h1>
+        <nav>
+            <a href="index.html">Voltar para a Loja</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario-container">
+            <h2>Crie sua Conta</h2>
+            <p>Preencha os dados abaixo para se cadastrar na livraria.</p>
+
+            <form action="index.html">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+
+                <label for="preferencia">Preferência de Leitura:</label>
+                <select id="preferencia" name="preferencia">
+                    <option value="romances">Romances</option>
+                    <option value="mangas">Mangás</option>
+                    <option value="hqs">HQs e Quadrinhos</option>
+                    <option value="ficcao">Ficção e Fantasia</option>
+                </select>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Desenvolvimento WEB - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
